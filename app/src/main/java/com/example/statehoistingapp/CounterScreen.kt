@@ -41,7 +41,7 @@ fun CounterScreen() {
             onIncrement = { count++ }
         )
 
-        Spacer(modifier = Modifier.height(26.dp))
+        Spacer(modifier = Modifier.height(16.dp))
 
         Button(onClick = {
             name = ""
